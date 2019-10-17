@@ -468,6 +468,24 @@
                 LastKnownLocation="GyakZHelott.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="02e28f6a-af17-4cdc-ba54-2f9bea8a9134"
+            name="kiszallitas"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="f2cc89ad-7e1e-4c24-bef5-38a4433e4c7c"
+                LastKnownName="Kiszallitas"
+                LastKnownLocation="GyakZHelott.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -557,45 +575,6 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
-          <association
-            Id="1a452c9b-cb2a-4d7f-ba9f-c73b69f26e88"
-            isDerived="false"
-            sourceEndRoleName="Raktar"
-            targetEndRoleName="Kiszallitas"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="f02f46fd-4764-4a58-b7cb-0eb6fd34ad7b"
-              LastKnownName="Kiszallitas"
-              LastKnownLocation="GyakZHelott.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="fb8f4b6d-1d4f-4669-9c45-39ba3402fb99"
-                  name="Raktar"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="Shared"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="c09619b3-a96c-443f-80ba-0cf177e8ee08"
-                  name="Kiszallitas"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
@@ -631,24 +610,6 @@
               <undefinedTypeMoniker
                 Id="3324685f-949f-443d-b82f-081988a86640"
                 LastKnownName="List&lt;Beszallitas&gt;"
-                LastKnownLocation="GyakZHelott.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="8c933de1-ad80-45b0-995c-d04e7dbaa521"
-            name="kiszallitasok"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="ef01c103-9467-4f8b-814a-4d2369e9dcb6"
-                LastKnownName="List&lt;Kiszallitas&gt;"
                 LastKnownLocation="GyakZHelott.uml" />
             </type_NamedElement>
           </property>
@@ -1622,24 +1583,6 @@
             </type_NamedElement>
           </property>
           <property
-            Id="970c2957-2e7b-4e6e-9a8c-f7bb96cafa39"
-            name="vasarlas"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <classMoniker
-                Id="f1f8e90b-c847-42c9-9fb0-d77fdbf2e370"
-                LastKnownName="Vasarlas"
-                LastKnownLocation="GyakZHelott.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="2cd690c8-dab7-4d75-9c29-256598a3c342"
             name="indulas"
             isLeaf="false"
@@ -1676,16 +1619,6 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="ef18778b-768a-4b0e-a85c-a8ecc70ce1cb"
-            name="megerkezik"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>

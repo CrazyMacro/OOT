@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="86d3c3c7-860a-4c6d-99c5-c62c7070f3b7" name="UMLClassDiagram1" linkedPackageId="6350ab5e-091f-44e1-848c-3014adea4d59" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="e90ba9d9-0387-43ec-b091-35c1dcedf86c">
-      <profileInstance Id="16c0fbb4-3494-4555-94bb-ffdb84257f88" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="f62a5d24-5ae9-4136-813b-555a4042718a">
-      <profileInstance Id="2dc34e0c-c331-4043-90bb-82e1675f4cd1" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="fa89e714-cd34-4644-b1e7-096f9ff07dd4" name="Termek" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -191,6 +177,12 @@
               <referencedTypeMoniker Id="f6f38130-e258-4548-9d22-e4473cb5d782" LastKnownName="Statusz" />
             </type_NamedElement>
           </property>
+          <property Id="49b63cf8-34b3-44c4-b937-52ee886bb5df" name="kiszallitas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02e28f6a-af17-4cdc-ba54-2f9bea8a9134" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0f6ce9dc-21aa-4d7d-ba80-cd48561bc2ce" LastKnownName="Kiszallitas" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -230,22 +222,6 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="fcdff108-c3bd-4f57-a03b-cbb71a66cc4f" />
           </association>
-          <association Id="49548cff-9293-477a-a8eb-2c617c8448e3" isDerived="false" sourceEndRoleName="Raktar" targetEndRoleName="Kiszallitas" isLeaf="false" isAbstract="false">
-            <classMoniker Id="706f9b64-7676-4920-975d-4d34faed62c6" LastKnownName="Kiszallitas" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="2b6a4738-b5d5-47b2-9927-83cbd07ac90a" name="Raktar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="fb8f4b6d-1d4f-4669-9c45-39ba3402fb99" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="827e3d43-dce8-418b-a6c9-bc319d4ec231" name="Kiszallitas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="c09619b3-a96c-443f-80ba-0cf177e8ee08" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="1a452c9b-cb2a-4d7f-ba9f-c73b69f26e88" />
-          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property Id="f67843c1-4e74-4189-a7c7-b6a7bfd17038" name="termekekRaktaron" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -258,12 +234,6 @@
             <elementDefinition Id="097da7f6-caec-4450-8a47-54764f62fd19" />
             <type_NamedElement>
               <referencedTypeMoniker Id="280cf732-7acf-44bb-9853-c402087fabb5" LastKnownName="List&lt;Beszallitas&gt;" />
-            </type_NamedElement>
-          </property>
-          <property Id="93efefb7-df03-4df7-9dff-3a932b928be5" name="kiszallitasok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="8c933de1-ad80-45b0-995c-d04e7dbaa521" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="e039a5ca-33f0-4033-908e-c57174c88e3b" LastKnownName="List&lt;Kiszallitas&gt;" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
@@ -687,11 +657,6 @@
         <elementDefinition Id="d76ca163-bd7e-4fe5-a806-630b686ed35f" />
       </referencedType>
     </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="e039a5ca-33f0-4033-908e-c57174c88e3b" name="List&lt;Kiszallitas&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Kiszallitas&gt;">
-        <elementDefinition Id="ef01c103-9467-4f8b-814a-4d2369e9dcb6" />
-      </referencedType>
-    </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
       <class Id="706f9b64-7676-4920-975d-4d34faed62c6" name="Kiszallitas" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="f02f46fd-4764-4a58-b7cb-0eb6fd34ad7b" />
@@ -736,12 +701,6 @@
               <referencedTypeMoniker Id="e8ce02f3-a594-4938-a05e-53c3716b7b53" LastKnownName="Cim" />
             </type_NamedElement>
           </property>
-          <property Id="e0670ab4-9d82-4c70-be33-0c27f38452c9" name="vasarlas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="970c2957-2e7b-4e6e-9a8c-f7bb96cafa39" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="87c15e73-d67a-437d-9f2a-bf0a4063e9f6" LastKnownName="Vasarlas" />
-            </type_NamedElement>
-          </property>
           <property Id="dc2920b0-d50c-4bd9-91af-38a341de0f37" name="indulas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="2cd690c8-dab7-4d75-9c29-256598a3c342" />
             <type_NamedElement>
@@ -755,18 +714,8 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation Id="52830213-d453-4277-85e2-cea784931e09" name="megerkezik" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="ef18778b-768a-4b0e-a85c-a8ecc70ce1cb" />
-          </operation>
-        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
-    <packageHasNamedElement>
-      <referencedType Id="87c15e73-d67a-437d-9f2a-bf0a4063e9f6" name="Vasarlas" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Vasarlas">
-        <elementDefinition Id="f1f8e90b-c847-42c9-9fb0-d77fdbf2e370" />
-      </referencedType>
-    </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="3b304398-7896-44c9-951c-1194386c9916" name="List&lt;Velemeny&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Velemeny&gt;">
         <elementDefinition Id="17e9c0cb-7107-4537-b75e-60e34772913c" />
@@ -804,8 +753,27 @@
         </ownedLiterals>
       </enumeration>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="0f6ce9dc-21aa-4d7d-ba80-cd48561bc2ce" name="Kiszallitas" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Kiszallitas">
+        <elementDefinition Id="f2cc89ad-7e1e-4c24-bef5-38a4433e4c7c" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="6350ab5e-091f-44e1-848c-3014adea4d59" name="GyakZHelott">
     <elementDefinition Id="40a1e895-767a-477f-9145-7d51311cb785" />
+    <profileInstances>
+      <packageHasProfileInstances Id="e90ba9d9-0387-43ec-b091-35c1dcedf86c">
+        <profileInstance Id="16c0fbb4-3494-4555-94bb-ffdb84257f88" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f62a5d24-5ae9-4136-813b-555a4042718a">
+        <profileInstance Id="2dc34e0c-c331-4043-90bb-82e1675f4cd1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
