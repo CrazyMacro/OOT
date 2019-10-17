@@ -1,0 +1,2 @@
+# OOT
+Objektum orientálot tervezés
