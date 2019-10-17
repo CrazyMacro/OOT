@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="86d3c3c7-860a-4c6d-99c5-c62c7070f3b7" name="UMLClassDiagram1" linkedPackageId="6350ab5e-091f-44e1-848c-3014adea4d59" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="e90ba9d9-0387-43ec-b091-35c1dcedf86c">
+      <profileInstance Id="16c0fbb4-3494-4555-94bb-ffdb84257f88" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f62a5d24-5ae9-4136-813b-555a4042718a">
+      <profileInstance Id="2dc34e0c-c331-4043-90bb-82e1675f4cd1" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fa89e714-cd34-4644-b1e7-096f9ff07dd4" name="Termek" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="94d16773-77e2-4647-ae1e-411981aea005" />
+        <ownedAttributesInternal>
+          <property Id="6fd6d940-bc59-4c6b-b0b0-e4ed227500bd" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6772f24b-c7e4-4959-b7ce-9902d254297d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="e4cee2b1-a145-4775-9b9e-76fd9b5ca438" name="nev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d4682aa0-5a15-40b0-aacf-5526289278ce" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="fbc7c17f-9e0c-4766-b63f-6a34e173cc83" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5bc2540d-2143-4209-a628-5418a8af7489" />
+          </property>
+          <property Id="c101c8a5-6680-47bd-9616-91a03ee666c7" name="kep" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82eb7f28-82d7-4b8f-a405-e0c5b8612fab" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="05c48553-60e4-4429-9d5c-8fecb08f8b5a" LastKnownName="File" />
+            </type_NamedElement>
+          </property>
+          <property Id="8cda4341-6a0b-4756-a81b-8780337b0b13" name="leiras" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4b7f0a13-dcf8-43e2-a02c-59debcb40d83" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="095af53c-b9c4-497f-b097-abcbb1e768b5" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="839351e6-f359-473c-9640-6ad282afb87e" name="Vevo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b4bc861f-3745-4bd1-88ca-c76829443d70" />
+        <targetEnds>
+          <association Id="d28d6b87-150b-4571-8379-2e4f2b869cb3" isDerived="false" sourceEndRoleName="Vevo" targetEndRoleName="Cim" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7f8489d2-68dc-4527-867e-746997ec04ce" LastKnownName="Cim" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1c0225ab-a84d-42a3-89d1-f60579afd756" name="Vevo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6eb3b19a-85af-4ab9-b034-bd50bfd1cd37" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b63e3bfc-e42c-4a4b-9814-c48150299e10" name="Cim" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="62d792e7-cf99-4d9e-a83a-80657dc2a478" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f157b24d-962d-4f04-b970-e726afa4059d" />
+          </association>
+          <association Id="4dfc088b-ee70-4549-9b8b-18d793330a6c" isDerived="false" sourceEndRoleName="Vevo" targetEndRoleName="Kosar" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bc2fec58-96f7-42b2-9efa-1281ec48bbaa" LastKnownName="Kosar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f9c8ab9-16b7-4b8d-a8c8-8c62c9fbd1c9" name="Vevo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16961d91-e515-4bd3-b7be-326599f55b02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2da7ce1b-862b-4023-a18c-0019c4a184eb" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5a4b1bf1-3096-4c24-bc70-e3d3e6babab6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3371f339-0972-4ee9-bae4-c460f5c4879c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="250ea262-e1a6-439c-8a2e-286e9cd260f5" name="nev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c9b88f44-c29e-434f-a0e0-0246c664e8ac" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="c8e0691d-8c41-4662-bdc1-ffb361aaef61" name="lakCim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="58e4de13-21ff-4baf-94f4-68ac2692c883" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e8ce02f3-a594-4938-a05e-53c3716b7b53" LastKnownName="Cim" />
+            </type_NamedElement>
+          </property>
+          <property Id="b6e194a4-9908-4d5c-a632-25dbb118ec57" name="mobil" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5ade5625-8002-45b5-9572-701dff2ad49a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="8decb7a7-9863-4d4f-a62c-28ee8db8aa47" name="kosar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dea7daf3-4d5a-40e4-8cc9-65765b6aa3b9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4b8058db-ff5e-49c2-a8f9-49421b2c8b3c" LastKnownName="Kosar" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ecd9c97d-8426-4a80-95c0-bb128edfede5" name="Vasarlas" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f1f8e90b-c847-42c9-9fb0-d77fdbf2e370" />
+        <targetEnds>
+          <association Id="9f7346f0-2c2c-4076-8a66-4250802dbf74" isDerived="false" sourceEndRoleName="Vasarlas" targetEndRoleName="FizetesiMod" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="6fcf2233-6389-425a-866c-8c61a450a122" LastKnownName="FizetesiMod" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ccb0f103-0cac-4473-865f-e4eaa74fb5b6" name="Vasarlas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="573e68de-4531-4984-8c8d-66cedeb956d3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08f9bd08-b9e0-4df0-84de-4b715eb9861e" name="FizetesiMod" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6fe4ed81-c324-4088-adbf-a366334ef01a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="52edda6a-325e-4eee-8fa3-6792c8d6ab5a" />
+          </association>
+          <association Id="7aa1980b-2810-4de5-833c-553929305d01" isDerived="false" sourceEndRoleName="Vasarlas" targetEndRoleName="Kosar" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bc2fec58-96f7-42b2-9efa-1281ec48bbaa" LastKnownName="Kosar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b3c2332-d54b-49c1-a78f-3b1e9d732e72" name="Vasarlas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="20f23f60-fe93-4cdd-b95b-c2e3ef87f505" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0aebd233-9e45-4fe9-a762-c11905dfe3b2" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4f4f52c3-bb27-4f1a-8e1e-e8ae6a8473d1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="60553284-4bb2-43ec-9e8e-a1428fddec47" />
+          </association>
+          <association Id="19894059-ceb8-4757-b1aa-0450340ba92d" isDerived="false" sourceEndRoleName="Vasarlas" targetEndRoleName="Statusz" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="50db010a-5301-4684-a48e-cd4e06301f1b" LastKnownName="Statusz" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="554690ff-c42a-4612-b295-f658c3c81862" name="Vasarlas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a5c40c7-94ad-48a9-afc8-65be1f1cf524" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a51e52e-1e7e-4f56-8685-fa525b087831" name="Statusz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f65493a9-2236-4034-ac22-59894f5f16e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="378a41c4-e2e2-489c-8521-e560aebd3492" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="84a25181-6c29-42aa-95a5-eaf392942c6d" name="kosar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e413700f-13c8-4ab6-af65-368b0bcaeb65" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4b8058db-ff5e-49c2-a8f9-49421b2c8b3c" LastKnownName="Kosar" />
+            </type_NamedElement>
+          </property>
+          <property Id="b83be348-e155-464a-bbad-00bf7ced02ef" name="fizetesModja" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a5ccb259-60f1-414b-917c-a3a7fb7d3e14" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="16315c02-9989-4d5c-a4c4-a70c3c1fb7a9" LastKnownName="FiezetesMod" />
+            </type_NamedElement>
+          </property>
+          <property Id="11a88eed-105d-4f27-b72b-964fabba7a37" name="statusz" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fea23b40-5466-4257-b657-3cd4e4c84cbd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f6f38130-e258-4548-9d22-e4473cb5d782" LastKnownName="Statusz" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b648568c-5afe-48c9-a856-3cfb9165baea" name="Raktar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a265f6e3-81f3-4414-8dff-d3c8d9953e44" />
+        <targetEnds>
+          <association Id="b6eb420b-5b8d-4714-a6e5-7def48b8d61b" isDerived="false" sourceEndRoleName="Raktar" targetEndRoleName="Tetel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ad361601-6f99-4581-a07d-51adbc6b67b4" LastKnownName="Tetel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b580b8d4-e2cc-494e-9c29-d77e80ed3f6d" name="Raktar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4f9050ca-c92e-45f5-8b25-3e9f51f55a22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fb5b6122-7221-4dd5-a710-c45f529136bb" name="Tetel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b3a91835-66f7-4424-a959-44b02b784d69" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="151218a3-19e7-4ba6-8afc-94bbb10dcfeb" />
+          </association>
+          <association Id="09c02fc9-5d2a-4de4-8148-ed925e9dedff" isDerived="false" sourceEndRoleName="Raktar" targetEndRoleName="Beszallítas" isLeaf="false" isAbstract="false">
+            <classMoniker Id="df31a7b7-d21b-446e-af7f-71264d72149a" LastKnownName="Beszallítas" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acfe05fd-d4c6-4143-baed-d25bd958bc11" name="Raktar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="06e2d8fd-eb01-4431-9d46-d5dfacf40a8a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e126efd-4d50-4f64-b239-dff713530ea7" name="Beszallítas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0da26d9d-ae6d-433f-a211-a74923d1cc6f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fcdff108-c3bd-4f57-a03b-cbb71a66cc4f" />
+          </association>
+          <association Id="49548cff-9293-477a-a8eb-2c617c8448e3" isDerived="false" sourceEndRoleName="Raktar" targetEndRoleName="Kiszallitas" isLeaf="false" isAbstract="false">
+            <classMoniker Id="706f9b64-7676-4920-975d-4d34faed62c6" LastKnownName="Kiszallitas" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2b6a4738-b5d5-47b2-9927-83cbd07ac90a" name="Raktar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb8f4b6d-1d4f-4669-9c45-39ba3402fb99" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="827e3d43-dce8-418b-a6c9-bc319d4ec231" name="Kiszallitas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c09619b3-a96c-443f-80ba-0cf177e8ee08" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1a452c9b-cb2a-4d7f-ba9f-c73b69f26e88" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="f67843c1-4e74-4189-a7c7-b6a7bfd17038" name="termekekRaktaron" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="456f2d37-7936-4c29-9cbc-1d0e6827ed3d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="aab72b1a-0b40-462e-909d-25f9503b3996" LastKnownName="List&lt;Tetel&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="bb8e9947-8a34-447d-a3ab-8fedd300fd2d" name="beszallitasok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="097da7f6-caec-4450-8a47-54764f62fd19" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="280cf732-7acf-44bb-9853-c402087fabb5" LastKnownName="List&lt;Beszallitas&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="93efefb7-df03-4df7-9dff-3a932b928be5" name="kiszallitasok" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8c933de1-ad80-45b0-995c-d04e7dbaa521" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e039a5ca-33f0-4033-908e-c57174c88e3b" LastKnownName="List&lt;Kiszallitas&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8b5b3c6d-f660-408a-932d-830e65bbddfe" name="isRaktaron" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="da8dafe8-d69d-4a91-8b46-025ca83ff622" />
+          </operation>
+          <operation Id="cd22f249-0268-4374-b8a4-53c7720720ab" name="isBeszallitasAlatt" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="90259a6d-5f15-489d-bef0-eaaef31d6067" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="05c48553-60e4-4429-9d5c-8fecb08f8b5a" name="File" isAbstract="false" isLeaf="false" cachedFullName="File">
+        <elementDefinition Id="f8a03122-abb3-4f8b-bfe5-e7e68283a6b6" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="6fcf2233-6389-425a-866c-8c61a450a122" name="FizetesiMod" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="758e0b44-e120-4ba1-be82-e2e79db94e01" />
+        <ownedLiterals>
+          <enumerationLiteral Id="d4a52e5e-3510-43e4-a3b6-a7a5499a2890" name="BANNKARTYAS">
+            <elementDefinition Id="f78d8a6a-e344-40ae-b20a-61f04e35da39" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="70b7319b-aade-4c7a-afc2-8d28423656d0" name="ATUTALAS">
+            <elementDefinition Id="e3ae2b4e-d5d7-417c-af4a-e2bed3368273" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="a7dbbc56-1d00-4b7a-947b-0dd115b2afd9" name="UTANVET">
+            <elementDefinition Id="3e71c5ac-7f27-4478-870a-e604f31e9d3e" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="15bc5b7b-eaa8-460e-83fb-938708083e3a" name="INTERNETES_PENZTARCA">
+            <elementDefinition Id="780c9687-a3ce-4a22-b3e6-badbe933d0ac" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7f8489d2-68dc-4527-867e-746997ec04ce" name="Cim" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="683a1474-94c0-44c7-becf-cede5bba717b" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="833c5aa4-551b-4328-8663-550f0d6cde6e" name="WebOldal" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8be7fff3-2d49-4d81-93e8-3ff1fef8c69c" />
+        <targetEnds>
+          <association Id="fdad1402-e24e-4900-abf7-75d3173620ce" isDerived="false" sourceEndRoleName="WebOldal" targetEndRoleName="TermekElado" isLeaf="false" isAbstract="false">
+            <classMoniker Id="004250f2-3a2e-4e8e-9948-36c0d7f7efcd" LastKnownName="TermekElado" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="abcdc415-e0f6-4fae-b6c9-073286c1a436" name="WebOldal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a879f551-8823-42ba-9153-222cffe01855" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5d7f145-ebd0-43a9-82bc-690769b6d1e8" name="TermekElado" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1c2fcc70-0344-4e32-b9ff-79ba168586ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="af0a1fd5-63cc-4927-ab1c-8bf70dc4c84c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0bb7ed3a-8f4b-403f-876b-ecdae885e8f8" name="eladoTermekek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="644e676b-382e-4e0b-a865-304224be0410" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ebeeb93c-0897-4125-825a-5b1f08048d0e" LastKnownName="List&lt;TermekElado&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="df31a7b7-d21b-446e-af7f-71264d72149a" name="Beszallítas" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="632ddc7f-2b10-4d62-be71-e1491a78ead2" />
+        <targetEnds>
+          <association Id="7e8fc25e-2801-455f-87c6-9d6ba7fef8cd" isDerived="false" sourceEndRoleName="Beszallítas" targetEndRoleName="Beszallito" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6e005fe5-f785-4e4c-a67f-119af5c895a3" LastKnownName="Beszallito" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9fc36a4a-1280-4340-989e-5f519105988c" name="Beszallítas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e5408063-788c-4f25-821c-8f8e4922e5cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4c67aee7-78df-4110-95c6-7eb8e4aeba02" name="Beszallito" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b4800754-22b6-4c91-b6d3-174db14ed985" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6531abac-6219-4f2b-a7ba-d28e428c9209" />
+          </association>
+          <association Id="fff39be7-41e4-4cf4-9c91-f29b0fd9c9fc" isDerived="false" sourceEndRoleName="Beszallítas" targetEndRoleName="Tetel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ad361601-6f99-4581-a07d-51adbc6b67b4" LastKnownName="Tetel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc43e417-1cc9-4a65-a4c3-ac4246375124" name="Beszallítas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6fec0652-d21a-45d8-9f06-588d5b49294e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0ed54b98-3261-4a57-858e-3f5aec309ef6" name="Tetel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf9cfc1d-7aa6-4271-963f-f9a71ba17853" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c6073db0-a3a9-4062-9fee-e039494a91dd" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="032ebf03-560f-4efd-9fce-e9b59f63023f" name="beszallito" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bd661589-cd31-4608-835b-a15d902ebd23" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dc35b01f-ff1e-4656-8327-796419779ac0" LastKnownName="Beszallito" />
+            </type_NamedElement>
+          </property>
+          <property Id="00034f05-74e6-4f5a-a6e4-296d07f48b8d" name="termekek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="358a5331-ff2a-4e8e-8315-2e8e773906ed" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fff544d0-0140-44d4-bab3-684f7b78154e" LastKnownName="List&lt;Tetel&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="0a09343b-b072-4398-9323-36569c15b8c7" name="indulas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5326a68b-8298-43ee-9de9-3bebc4f0926e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c8b10841-8ec4-49a3-b9dd-40abdba57035" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ad361601-6f99-4581-a07d-51adbc6b67b4" name="Tetel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="52643184-47d4-4110-841e-fd1c4e8579d4" />
+        <targetEnds>
+          <association Id="53e29480-b347-407e-99b1-c87bc4fcc0c6" isDerived="false" sourceEndRoleName="Tetel" targetEndRoleName="Termek" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fa89e714-cd34-4644-b1e7-096f9ff07dd4" LastKnownName="Termek" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="973b082f-a1cc-453f-9b29-bccfcc620ccc" name="Tetel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="459b0457-06e5-4474-8f76-0f35f147830d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="189ea789-e98b-4630-8a30-49fd8f078c60" name="Termek" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2815c633-245b-4901-90be-9b78fbe68dbb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3ec4c9bd-71df-4660-9684-4f169ad1db72" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="ecb69178-9159-45d0-9d19-457d596a22ce" name="termek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ac47d714-dcd0-46c9-9b5d-50dd00fcb8ce" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="68308aa6-da73-43ce-8ed0-6536c5cb0296" LastKnownName="Termek" />
+            </type_NamedElement>
+          </property>
+          <property Id="5a0407da-5cb3-4de4-a837-ca7850c8ab0f" name="mennyiseg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="46635db6-62ad-44fa-b13a-c68a9a19afa2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d49631ce-53ad-4f4c-a6d5-24d2606dd6b8" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dfa5ab6b-0787-488d-9426-3ba1525c94d2" name="Velemeny" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e57f3971-a9db-45a1-86f8-b9594e658698" />
+        <targetEnds>
+          <association Id="341d1089-743a-40b0-a773-6203df20c3de" isDerived="false" sourceEndRoleName="Velemeny" targetEndRoleName="Felhasznalo" isLeaf="false" isAbstract="false">
+            <classMoniker Id="32d919b4-6817-4aa3-a3d2-370267210138" LastKnownName="Felhasznalo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91355f7d-bd7c-4cf3-a08a-0944414d415f" name="Velemeny" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="feb4276d-d177-4584-a046-bbc85aa923ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2dfc77e6-0076-41d7-9e12-b448a07ab9df" name="Felhasznalo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ca6a1ea5-13df-49ce-ae03-5b419dfacd7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f54b6c79-7768-4112-9a08-4e88cd7bfb7b" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="44f83441-5ba2-47b1-b2e1-cae025dbdec3" name="szerzo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3a11b9c5-1660-4eac-88be-fdfcf64aa941" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1b5226cc-33ea-4b71-b9b9-2d1008f50b49" LastKnownName="Felhasznalo" />
+            </type_NamedElement>
+          </property>
+          <property Id="4865e60f-743f-4f73-ba17-7ee11f66f54d" name="idopont" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="06eb3573-6b6e-4a83-9ce5-f9a19deaad69" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c8b10841-8ec4-49a3-b9dd-40abdba57035" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+          <property Id="3b4cb342-189c-44d1-a125-0996b0545385" name="szoveg" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d65719ed-b9e6-4c37-8741-716082175206" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="004250f2-3a2e-4e8e-9948-36c0d7f7efcd" name="TermekElado" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c72bd357-85de-436d-865a-eb6eaaa89b96" />
+        <suppliersInternal>
+          <dependency Id="460e1f00-acd6-4dda-a030-d3a09fc034b6" name="isRaktaron()">
+            <classMoniker Id="b648568c-5afe-48c9-a856-3cfb9165baea" LastKnownName="Raktar" />
+            <elementDefinition Id="a34fc925-9897-4f40-8eca-b74ab1a19d09" />
+          </dependency>
+          <dependency Id="fb48dad1-235f-49fe-9a1c-aaac11cfe5c9" name="isBeszallitasAlatt()">
+            <classMoniker Id="b648568c-5afe-48c9-a856-3cfb9165baea" LastKnownName="Raktar" />
+            <elementDefinition Id="943cb5ef-d2fb-41c7-93b8-f2dab1b8011a" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="91a7a81b-a803-4bd9-a454-3fb2b193db8e" isDerived="false" sourceEndRoleName="TermekElado" targetEndRoleName="Termek" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fa89e714-cd34-4644-b1e7-096f9ff07dd4" LastKnownName="Termek" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78e26e16-b6ed-4bd4-affd-1ebe2d4d9c2b" name="TermekElado" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0baf078c-13c4-4b48-a139-a839f4a264f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="337578d8-6796-4cee-a39a-6e97c5ba8acf" name="Termek" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1ccb7c7e-3621-477d-a22a-ad22bd6d07c3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3079361f-6b50-44c6-b27b-4b9845a24d78" />
+          </association>
+          <association Id="58435b86-8764-479d-bed0-fe61d59d2422" isDerived="false" sourceEndRoleName="TermekElado" targetEndRoleName="Velemeny" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dfa5ab6b-0787-488d-9426-3ba1525c94d2" LastKnownName="Velemeny" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ffbdc2e0-9236-4314-b8c5-7a327c1a8bff" name="TermekElado" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d0725c42-f2e8-4ecb-8031-be676d298739" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e2fbe4c-0ebc-4a49-858b-1b052085e22b" name="Velemeny" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e5c3649a-c34b-4e63-9794-7768db27d85b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bcb4bed7-0138-4d86-9e57-0746aa70ee6c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="a07adbc0-6da1-4a92-a306-519cf1c939ba" name="termek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="15d012b8-eddf-4eb1-a825-214050154536" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e5ba4cf2-5d47-4b38-a365-9cbd6c70bb71" LastKnownName="Termek" />
+            </type_NamedElement>
+          </property>
+          <property Id="f774d86d-024a-4d51-93da-b98b016ced28" name="raktaron" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3b3c579d-7a6f-4f7e-b122-81b03ac24ee2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="324ee24a-16cb-4134-ae6e-83eefb35daad" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="07b86791-a7de-4097-ae4f-716301d5e4a9" name="beszallitva" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cf7aa2b9-fba0-47ba-af7e-804b1caade9e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="324ee24a-16cb-4134-ae6e-83eefb35daad" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="92bae807-7e73-4bed-95db-71312834775e" name="velemenyek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3f51fa9b-a731-4206-a569-fe9a042f2fcb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3b304398-7896-44c9-951c-1194386c9916" LastKnownName="List&lt;Velemeny&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="d49631ce-53ad-4f4c-a6d5-24d2606dd6b8" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e5ba4cf2-5d47-4b38-a365-9cbd6c70bb71" name="Termek" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Termek">
+        <elementDefinition Id="94d16773-77e2-4647-ae1e-411981aea005" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="324ee24a-16cb-4134-ae6e-83eefb35daad" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ebeeb93c-0897-4125-825a-5b1f08048d0e" name="List&lt;TermekElado&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;TermekElado&gt;">
+        <elementDefinition Id="b929544a-5c2d-41a5-8098-e5dde158444a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="280cf732-7acf-44bb-9853-c402087fabb5" name="List&lt;Beszallitas&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Beszallitas&gt;">
+        <elementDefinition Id="3324685f-949f-443d-b82f-081988a86640" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6e005fe5-f785-4e4c-a67f-119af5c895a3" name="Beszallito" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5a236117-3021-44d5-8831-a4c76ad01009" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="dc35b01f-ff1e-4656-8327-796419779ac0" name="Beszallito" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Beszallito">
+        <elementDefinition Id="5a236117-3021-44d5-8831-a4c76ad01009" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="32d919b4-6817-4aa3-a3d2-370267210138" name="Felhasznalo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b0ddc633-ce29-40c4-a368-315ee5bc85bc" />
+        <generalsInternal>
+          <generalization Id="3e5b8078-3587-4f92-ab32-e66c3fba8add" isSubstitutable="false">
+            <classMoniker Id="839351e6-f359-473c-9640-6ad282afb87e" LastKnownName="Vevo" />
+            <elementDefinition Id="f820dda2-22f7-48d2-8870-f172ab340c7f" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="04ae14aa-4c28-40a4-a218-bde895b520cb" name="felhNev" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="79972627-cc89-4e18-867f-541ee6e2ccb4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="65aea675-bcf2-490c-80ce-30f8a6958223" name="jelszoHash" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a2cdc5ec-35ee-4652-b906-369f7d4b728a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="095af53c-b9c4-497f-b097-abcbb1e768b5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="c8b10841-8ec4-49a3-b9dd-40abdba57035" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="443e1d8a-1cbd-4147-834e-496214b4ebca" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e8ce02f3-a594-4938-a05e-53c3716b7b53" name="Cim" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Cim">
+        <elementDefinition Id="683a1474-94c0-44c7-becf-cede5bba717b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="16315c02-9989-4d5c-a4c4-a70c3c1fb7a9" name="FiezetesMod" isAbstract="false" isLeaf="false" cachedFullName="FiezetesMod">
+        <elementDefinition Id="ec69bdb9-fdb6-4071-be8b-5ff80af6b40b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1b5226cc-33ea-4b71-b9b9-2d1008f50b49" name="Felhasznalo" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Felhasznalo">
+        <elementDefinition Id="b0ddc633-ce29-40c4-a368-315ee5bc85bc" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="68308aa6-da73-43ce-8ed0-6536c5cb0296" name="Termek" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Termek">
+        <elementDefinition Id="94d16773-77e2-4647-ae1e-411981aea005" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bc2fec58-96f7-42b2-9efa-1281ec48bbaa" name="Kosar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4b10f297-8a84-4a30-9821-910813ebc4fa" />
+        <targetEnds>
+          <association Id="7cc59412-1c46-469c-9399-46ffbed86ec8" isDerived="false" sourceEndRoleName="Kosar" targetEndRoleName="Tetel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ad361601-6f99-4581-a07d-51adbc6b67b4" LastKnownName="Tetel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f8d022d-4f3f-45eb-9a5f-2c40da0df71a" name="Kosar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fdc5abd7-a668-476f-aca0-848868128c6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="beaec7f0-af07-48fa-9b03-615c0480cf4a" name="Tetel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0468a1df-280a-4b74-9f23-e3b33de33c61" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3883dba1-22aa-4168-a856-d244fa6d6a39" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="b47af191-3308-441a-92a4-9e04791c9a57" name="termekek" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="47ccacad-03fd-417d-874b-b52db15b3d07" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fb487516-dd1c-427a-9e04-618a0e5432b5" LastKnownName="List&lt;Tetel&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="4b8058db-ff5e-49c2-a8f9-49421b2c8b3c" name="Kosar" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Kosar">
+        <elementDefinition Id="b6e5ac23-c68c-411b-aff9-927d1c549eb2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fb487516-dd1c-427a-9e04-618a0e5432b5" name="List&lt;Tetel&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Tetel&gt;">
+        <elementDefinition Id="d76ca163-bd7e-4fe5-a806-630b686ed35f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="aab72b1a-0b40-462e-909d-25f9503b3996" name="List&lt;Tetel&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Tetel&gt;">
+        <elementDefinition Id="d76ca163-bd7e-4fe5-a806-630b686ed35f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fff544d0-0140-44d4-bab3-684f7b78154e" name="List&lt;Tetel&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Tetel&gt;">
+        <elementDefinition Id="d76ca163-bd7e-4fe5-a806-630b686ed35f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e039a5ca-33f0-4033-908e-c57174c88e3b" name="List&lt;Kiszallitas&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Kiszallitas&gt;">
+        <elementDefinition Id="ef01c103-9467-4f8b-814a-4d2369e9dcb6" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="706f9b64-7676-4920-975d-4d34faed62c6" name="Kiszallitas" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f02f46fd-4764-4a58-b7cb-0eb6fd34ad7b" />
+        <targetEnds>
+          <association Id="3a4a3bf4-4319-4fc2-80b5-d223410e0d18" isDerived="false" sourceEndRoleName="Kiszallitas" targetEndRoleName="Cim" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7f8489d2-68dc-4527-867e-746997ec04ce" LastKnownName="Cim" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5be45f99-cb9b-46b4-b6b6-c78592081933" name="Kiszallitas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="66469014-20ce-42ac-9d84-7c7a60bade0c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b656a5b6-e03a-4e6f-8547-8b57f1870a9b" name="Cim" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="672a6c1b-1eac-4247-bd53-93414c34581d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4b98b2b3-4df1-4b13-8856-0c511bdbdfff" />
+          </association>
+          <association Id="3993e3cb-2b94-4428-8fee-ed2583056a88" isDerived="false" sourceEndRoleName="Kiszallitas" targetEndRoleName="Vasarlas" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ecd9c97d-8426-4a80-95c0-bb128edfede5" LastKnownName="Vasarlas" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b552c3d4-55ab-455c-9969-5eb797e4596d" name="Kiszallitas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="514b14f6-57c3-4707-9560-25b434184c50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="14fd496e-fdeb-4554-964a-d9a96b9df6a8" name="Vasarlas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="80f8d5cd-5ceb-4532-b812-a788544da03f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0c82436e-5a72-4eed-a096-b638328a4747" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="571df6ac-ccff-4110-90b7-09f8bd8ddcdd" name="cim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0591c2c4-9b0c-4002-886a-cfc164556d8f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e8ce02f3-a594-4938-a05e-53c3716b7b53" LastKnownName="Cim" />
+            </type_NamedElement>
+          </property>
+          <property Id="e0670ab4-9d82-4c70-be33-0c27f38452c9" name="vasarlas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="970c2957-2e7b-4e6e-9a8c-f7bb96cafa39" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="87c15e73-d67a-437d-9f2a-bf0a4063e9f6" LastKnownName="Vasarlas" />
+            </type_NamedElement>
+          </property>
+          <property Id="dc2920b0-d50c-4bd9-91af-38a341de0f37" name="indulas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2cd690c8-dab7-4d75-9c29-256598a3c342" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0d229ec8-188a-4c9f-a588-2cc84dc69e55" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+          <property Id="d9d9987c-dcba-4ea3-9699-a80a6478469e" name="erkezes" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ee3c5769-b201-4b6e-a507-1b7e06c3b09b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c8b10841-8ec4-49a3-b9dd-40abdba57035" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="52830213-d453-4277-85e2-cea784931e09" name="megerkezik" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ef18778b-768a-4b0e-a85c-a8ecc70ce1cb" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="87c15e73-d67a-437d-9f2a-bf0a4063e9f6" name="Vasarlas" isAbstract="false" isLeaf="false" cachedFullName="GyakZHelott::Vasarlas">
+        <elementDefinition Id="f1f8e90b-c847-42c9-9fb0-d77fdbf2e370" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3b304398-7896-44c9-951c-1194386c9916" name="List&lt;Velemeny&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Velemeny&gt;">
+        <elementDefinition Id="17e9c0cb-7107-4537-b75e-60e34772913c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0d229ec8-188a-4c9f-a588-2cc84dc69e55" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="443e1d8a-1cbd-4147-834e-496214b4ebca" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f6f38130-e258-4548-9d22-e4473cb5d782" name="Statusz" isAbstract="false" isLeaf="false" cachedFullName="Statusz">
+        <elementDefinition Id="37e09042-79d8-42d7-97d9-01d1e6e6a151" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="50db010a-5301-4684-a48e-cd4e06301f1b" name="Statusz" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5aba49a3-65a6-40e5-a478-de792788c730" />
+        <ownedLiterals>
+          <enumerationLiteral Id="e30de1af-9666-406c-be42-d9c6c46145ca" name="KIFIZETVE">
+            <elementDefinition Id="7fa3fba9-bfba-4653-bad3-aca3a6b4adf8" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="f930e12e-4f43-467a-93f4-a4f6e0a73bd5" name="MEGKEZDVE">
+            <elementDefinition Id="059f266c-46f2-40b1-bfdd-176d2e2eff0c" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="3f1900ab-5352-4967-b35e-0dcd184a5636" name="ELKULDVE">
+            <elementDefinition Id="a47c0d8d-79a9-440d-a357-a7586af1b062" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="ff61fbc4-b72a-4401-86f9-3b3612f9a690" name="ERVENYTELEN">
+            <elementDefinition Id="c7307410-cad3-40ae-bff9-b6fdcd0ee9d4" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="c27e5089-092f-464c-a22f-be8d4456986b" name="LEZART">
+            <elementDefinition Id="181119ab-4629-42de-b57a-a742235c0e17" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="6350ab5e-091f-44e1-848c-3014adea4d59" name="GyakZHelott">
+    <elementDefinition Id="40a1e895-767a-477f-9145-7d51311cb785" />
+  </package>
+</logicalClassDesignerModel>
